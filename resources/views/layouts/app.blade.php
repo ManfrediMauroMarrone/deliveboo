@@ -11,7 +11,6 @@
     <title>@yield('page-title')</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -23,6 +22,8 @@
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
 
     <script src="https://kit.fontawesome.com/43febffcb7.js" crossorigin="anonymous"></script>
+
+    <script src="{{ asset('js/app.js') }}" defer></script>
 </head>
 
 <body>
