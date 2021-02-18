@@ -2,15 +2,9 @@
 
 @section('page-title', 'pagina prova')
 
-@section('script')
-
-<script src="{{ asset('js/homepage.js') }}" defer></script>
-
-@endsection
-
 
 @section('content')
-<div>
+<div id="app">
     <nav class="navbar navbar-expand-md navbar-light bg-light">
         <div class="container d-flex justify-content-center">
 
