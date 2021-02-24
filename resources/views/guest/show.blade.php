@@ -28,7 +28,7 @@
                             <h5 class="address"> <span><i class="fas fa-map-marker-alt"></i></span> Indirizzo: {{ $restaurant->address}}</h5>
                         </div>
                         <div class="info-container-right">
-                            <img src="https://picsum.photos/400/300?random=1" alt="">
+                            <img src="https://picsum.photos/600/300?random=1" alt="">
                             <!-- {{asset("storage/".$restaurant->img_cover)}} -->
                         </div>
 
